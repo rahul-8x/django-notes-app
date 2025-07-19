@@ -34,7 +34,7 @@ services:
       start_period: 30s
     networks:
       - notes-app-nw
-
+# .github/workflows/trigger-jenkins-on-comment.yml
   db:
     image: mysql
     container_name: "db_cont"
